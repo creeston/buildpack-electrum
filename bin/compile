@@ -11,5 +11,3 @@ echo "-----> Installing electrum"
 $BUILD_DIR/.heroku/python/bin/pip install https://download.electrum.org/3.0.2/Electrum-3.0.2.tar.gz
 
 touch $1/.heroku/electrumed
-
-echo "" | electrum restore '"$WALLET_SEED"'
