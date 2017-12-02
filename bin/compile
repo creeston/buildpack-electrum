@@ -12,4 +12,4 @@ $BUILD_DIR/.heroku/python/bin/pip install https://download.electrum.org/3.0.2/El
 
 touch $1/.heroku/electrumed
 
-echo "" | electrum restore $WALLET_SEED
+echo "" | electrum restore '"$WALLET_SEED"'
