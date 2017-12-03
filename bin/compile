@@ -11,6 +11,7 @@ echo "-----> Installing electrum"
 $BUILD_DIR/.heroku/python/bin/pip install https://download.electrum.org/3.0.2/Electrum-3.0.2.tar.gz
 
 echo "-----> Installing electrum-ltc"
+apt-get install python-dev
 $BUILD_DIR/.heroku/python/bin/pip install https://electrum-ltc.org/download/Electrum-LTC-2.9.3.1.tar.gz
 
 touch $1/.heroku/electrumed
